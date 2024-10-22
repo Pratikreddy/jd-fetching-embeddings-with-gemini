@@ -8,7 +8,7 @@ import ollama
 import google.generativeai as genai
 import time
 
-API_KEY = "AIzaSyBrQemIQoAT6gZLI7pvuV-mmM6OZXATbE8"
+API_KEY = ""
 genai.configure(api_key=API_KEY)
 
 # Load FAISS index and DataFrame
